@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>ورود</title>
 </head>
-<body>
-    
+<body class="flex flex-col items-center bg-wihte-100 w-screen h-screen">
+    <div class="m-10">
+        <form class="flex flex-col justify-center gap-3 items-center bg-gray border-5 rounded-lg p-10">
+            <input type="text" placeholder="نام کاربری خود را وارد کنید" class="text-center border-2 rounded-lg text-gray-600 text-base">
+            <input type="password" placeholder="رمز را وارد کنید" class="text-center border-2 rounded-lg text-gray-600 text-base">
+            <button class="bg-blue-600 ">ورود</button>
+        </form>
+    </div>
 </body>
 </html>
